@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Role Based Authentication System
 
-## Getting Started
+# Overview
 
-First, run the development server:
+This project implements a role-based authentication system for managing user access to various functionalities within an application. It utilizes technologies such as Next.js for frontend development, Prisma for database management, and NextAuth.js for authentication.
 
-```bash
+## Version
+
+0.1.0
+
+## Scripts
+
+- `dev`: Runs the app in the development mode.
+- `build`: Builds the app for production.
+- `start`: Starts the production server.
+- `lint`: Lints the codebase.
+
+## Dependencies
+
+- `@auth/prisma-adapter`: Prisma adapter for authentication.
+- `@prisma/client`: Prisma client for database operations.
+- `@uploadthing/react`: React component for file uploads.
+- `flowbite-react`: Flowbite components for React.
+- `lucide-react`: Lucide icons for React.
+- `next`: The React framework.
+- `next-auth`: Authentication for Next.js.
+- `react`: JavaScript library for building user interfaces.
+- `react-dom`: React package for working with the DOM.
+- `react-hook-form`: React hooks for form validation.
+- `react-hot-toast`: Notifications for React.
+- `uploadthing`: Library for file uploads.
+
+## Dev Dependencies
+
+- `autoprefixer`: PostCSS plugin to parse CSS and add vendor prefixes.
+- `postcss`: Tool for transforming styles with JS plugins.
+- `prisma`: Database toolkit.
+- `tailwindcss`: Utility-first CSS framework.
+
+# Installation
+
+To install and run this project locally, follow these steps:
+
+# Clone the repository:
+
+git clone https://github.com/ndalo-ben/Role_Based_Auth.git
+
+# Navigate to the project directory:
+
+cd Role_Based_Auth
+
+# Install dependencies:
+
+npm install
+
+# Usage
+
+# Development
+
+To run the application in development mode, use the following command:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This will start the development server.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Build
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To build the application for production, use the following command:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npm run build
+This will create an optimized production build of the application.
 
-## Learn More
+# Start
 
-To learn more about Next.js, take a look at the following resources:
+To start the production server, use the following command:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm start
+This will start the server using the production build.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Linting
 
-## Deploy on Vercel
+To lint the project files, use the following command:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run lint
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT]
+
+## Notes
+
+Ensure that you have proper configurations set up for NextAuth.js and Prisma to enable role-based authentication effectively. Refer to their respective documentation for more information on configuration and usage.
