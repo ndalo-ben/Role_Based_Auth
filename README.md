@@ -1,21 +1,21 @@
 ## Role Based Authentication System
 
-# Overview
+### Overview
 
 This project implements a role-based authentication system for managing user access to various functionalities within an application. It utilizes technologies such as Next.js for frontend development, Prisma for database management, and NextAuth.js for authentication.
 
-## Version
+### Version
 
 0.1.0
 
-## Scripts
+### Scripts
 
 - `dev`: Runs the app in the development mode.
 - `build`: Builds the app for production.
 - `start`: Starts the production server.
 - `lint`: Lints the codebase.
 
-## Dependencies
+### Dependencies
 
 - `@auth/prisma-adapter`: Prisma adapter for authentication.
 - `@prisma/client`: Prisma client for database operations.
@@ -30,63 +30,63 @@ This project implements a role-based authentication system for managing user acc
 - `react-hot-toast`: Notifications for React.
 - `uploadthing`: Library for file uploads.
 
-## Dev Dependencies
+### Dev Dependencies
 
 - `autoprefixer`: PostCSS plugin to parse CSS and add vendor prefixes.
 - `postcss`: Tool for transforming styles with JS plugins.
 - `prisma`: Database toolkit.
 - `tailwindcss`: Utility-first CSS framework.
 
-# Installation
+### Installation
 
 To install and run this project locally, follow these steps:
 
-# Clone the repository:
+### Clone the repository:
 
 git clone https://github.com/ndalo-ben/Role_Based_Auth.git
 
-# Navigate to the project directory:
+### Navigate to the project directory:
 
 cd Role_Based_Auth
 
-# Install dependencies:
+### Install dependencies:
 
 npm install
 
-# Usage
+### Usage
 
-# Development
+### Development
 
 To run the application in development mode, use the following command:
 
 npm run dev
 This will start the development server.
 
-# Build
+### Build
 
 To build the application for production, use the following command:
 
 npm run build
 This will create an optimized production build of the application.
 
-# Start
+### Start
 
 To start the production server, use the following command:
 
 npm start
 This will start the server using the production build.
 
-# Linting
+### Linting
 
 To lint the project files, use the following command:
 
 npm run lint
 
-## Contributing
+### Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
+### License
 
 [MIT]
 
